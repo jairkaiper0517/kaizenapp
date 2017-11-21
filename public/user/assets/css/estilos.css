@@ -1,0 +1,488 @@
+ /*MATEO*/
+ body{
+  font-family: Berlin Sans FB !important;
+}
+.nav-item{
+  font-size: 18px;
+}
+#page2 {
+    background-image: url(../images/Kaizen/Travel.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+@media (max-width: 767px){
+  #page2>div>div.row>div{
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  
+}
+#page2 h2{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "museo-sans", Arial, sans-serif;
+    color: #000;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+div.concepto>p{
+  text-align: justify;
+}
+
+#page2 a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+div.concepto{
+    /*background-color: rgba(117, 117, 117, 0.70);
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 4%;*/
+    margin-top: 16%;
+    color: black;
+    font-size: 24px;
+}
+div.quote{
+    height: 5%;
+    margin-left: 2%;
+    background-color: rgba(117, 117, 117, 0.30);
+    text-shadow: 2px 2px 2px white;
+    padding: 2%;
+    border: solid 1px black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 25px;
+    text-align: justify;
+}
+div.goToAction{
+  background-color: rgba(117, 117, 117, 0.70);
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 4%;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 4%;
+}
+div.goToAction i{
+    font-size: 25px;
+    color: white;
+}
+div.quote i{
+    color: #157BFA;
+}
+
+.container-fluid{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2%;
+}
+@media (max-width: 768px){
+  div.concepto{
+    margin-top: 0;
+    color: black;
+    font-size: 20px;
+  }
+  div.goToAction{
+    background-color: rgba(117, 117, 117, 0.70);
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 4%;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 0;
+  }
+  div.quote{
+    margin-left: 0;
+    background-color: rgba(117, 117, 117, 0.30);
+    text-shadow: 2px 2px 2px white;
+    padding: 2%;
+    border: solid 1px black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 29px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+  }
+}
+
+#Pergamino>div>p{
+  font-size: 18px;
+}
+
+#div1s{
+  background-image: url(../images/Kaizen/mapa.jpg);
+  font-family: Berlin Sans FB;
+  /*background-attachment: fixed;
+  background-size: cover;*/
+}
+@media (min-width: 1430px){
+  #Pergamino>div{
+    position: absolute;
+    top: 17%;
+    left: 11%
+  }
+  #Pergamino>div>p{
+    font-size: 20px;
+  }
+  #Pergamino>div>h2{
+    text-align: center;
+  }
+  #Pergamino>div>h4{
+    text-align: center;
+  }
+}
+@media (min-width: 477px){
+  #img5s{
+    text-align: center;
+  }
+}
+@media (max-width: 575px){
+  div.flechaIzq{
+    display: none;
+  }
+  div.flechaDer{
+    display: none;
+  }
+}
+@media (max-width: 560px) {
+  div.pp-section {
+    height: 89%;
+    width: 100%;
+  }
+  #Pergamino>img{
+    content:url(../images/Kaizen/Pergamino.png);
+    height: 80%;
+  }
+  #Pergamino>div{
+    position: absolute;
+    top: 18%;
+    left: 17%;
+  }
+}
+@media (max-width: 991px){
+  div.flechaIzq{
+    font-size: 65px;
+  }
+  div.flechaDer{
+    font-size: 65px;
+  }
+  div.flechaIzqMudas{
+    font-size: 65px;
+  }
+  div.flechaDerMudas{
+    font-size: 65px;
+  }
+  #Pergamino>div{
+    width: 75%;
+    position: absolute;
+    top: 17%;
+    left: 11%;
+    text-align: justify;
+  }
+   #Pergamino>div>h2{
+    text-align: center;
+  }
+  #Pergamino>div>h4{
+    text-align: center;
+  }
+}
+@media (max-width: 711px) and (min-width: 561px){
+  #Pergamino>img{
+    height: 70%;
+  }
+  #containerBotones{
+      margin-top: -36%;
+  }
+}
+@media (max-width: 711px) and (min-width: 576px){
+  .flechaIzq{
+    margin-top: -35%;
+  }
+  .flechaDer{
+    margin-top: -35%;
+  }
+}
+@media (min-width: 320px) and (max-width: 472px){
+  #containerBotones {
+    margin-top: -50%;
+  }
+}
+@media (max-width: 560px){
+  #Pergamino>div{
+    position: absolute;
+    top: 18%;
+    left: 17%;
+  }
+  #Pergamino>div{
+    width: 70%;
+    position: absolute;
+    top: 13%;
+    text-align: justify;
+  }
+}
+@media (max-width: 560px) and (min-width: 472px){
+  #containerBotones{
+      margin-top: -40%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1429px){
+  #Pergamino>div{
+    position: absolute;
+    top: 17%;
+    left: 11%;
+    text-align: justify;
+  }
+  #Pergamino>div>h2{
+    text-align: center;
+  }
+  #Pergamino>div>h4{
+    text-align: center;
+  }
+}
+@media (min-width: 992px) and (max-width: 1154px) {
+  .flechaIzq{
+    margin-top: -32%;
+  }
+  .flechaDer{
+    margin-top: -32%;
+  }
+  div.pp-section {
+      height: 100%;
+      position: absolute;
+      width: 100%;
+  }
+  #Pergamino>img{
+    content:url(../images/Kaizen/Pergamino.png);
+    height: 65%;
+    margin-left: 13%;
+  }
+  #Pergamino>div{
+    width: 64%;
+    position: absolute;
+    top: 11%;
+    left: 28%;
+    text-align: justify;
+  }
+  #Pergamino>div>h2{
+    text-align: center;
+  }
+  #Pergamino>div>h4{
+    text-align: center;
+  }
+}
+#botones5S{
+  display: none;
+}
+#containerBotonesMudas{
+  display: none;
+}
+@media screen and (max-width: 991px){
+  #botones5S{
+    display: inline-block;
+  }
+  #img5s{
+    display: none;
+  }
+  #texto1{
+    display: none;
+  }
+  #divMudas>div>ul {
+    margin-top: -2%;
+  }
+  #containerBotonesMudas{
+    display: inline-block;
+  }
+}
+@media (min-width: 992px){
+  div.pp-section {
+      height: 91%;
+      position: absolute;
+      width: 100%;
+}
+
+/*GLOSARIO*/
+@media (max-width: 1024px) and (min-width: 320px){
+  #page4>div>div>img{
+    width: 100%;
+    height: 20%;
+  }
+}
+@media (min-width: 1025px){
+  #page4>div>div>img{
+    width: 100%;
+    height: 35%;
+  }
+}
+#page4>div>h2{
+  text-align: center;
+  color: white;
+  padding: 1%;
+}
+#tablaGlosario>tbody>tr>th{
+  border-top: none;
+}
+#tablaGlosario>tbody>tr>td{
+  border-top: none;
+}
+#tablaGlosario>tbody>tr>td>b{
+  font-size: 18px;
+  font-weight: 500;
+}
+#page4>div>div.row{
+  height: 640px;
+  border: solid 2px #CDCDCD;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: rgba(255, 255, 255, 0.60);
+  margin-top: 2%;
+}
+@media (max-width: 1024px){
+  #page4>div>div.row{
+    height: 850px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
+
+/*MUDAS*/
+#mudas {
+    background-image: url(../images/Kaizen/mapa2.jpg);
+    background-size: cover;
+}
+#containerMudas{
+  background-image: url(../images/Kaizen/mapa2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+#mudas>div>div>a{
+  font-size: 70px;
+  /*background-attachment: fixed;*/
+}
+div.flechaIzq>a{
+  color: #006A90;
+  font-size: 80px;
+}
+div.flechaDer>a{
+  color: #006A90;
+  font-size: 80px;
+}
+div.flechaIzqMudas>a{
+  color: #006A90;
+  font-size: 80px;
+}
+div.flechaDerMudas>a{
+  color: #006A90;
+  font-size: 80px;
+}
+@media (max-width: 767px) and (min-width: 576px){
+  div.flechaIzq>a{
+    color: #006A90;
+    font-size: 80px;
+  }
+div.flechaDer>a{
+    color: #006A90;
+    font-size: 80px;
+  }
+}
+#divMudas>div>p>b{
+  font-weight: 500;
+}
+
+@media (max-width: 767px) and (min-width: 712px){
+  #divMudas{
+    margin-left: 3%;
+  }
+}
+#divMudas>div>ul{
+  margin-top: -4%;
+}
+
+/*POKA-YOKE*/
+#divPokayoke{
+  background-image: url(../images/Kaizen/Kaizenn2.jpg);
+  background-size: cover;
+}
+#pokayoke{
+  margin-top: -43%;
+  margin-left: 6%;
+  text-align: justify;
+}
+#pokayoke>p{
+  margin-top: -5px;
+  font-size: 18px;
+}
+#pokayoke>h2{
+  text-align: center;
+}
+#pokayoke>p>b{
+  font-weight: 600;
+}
+#pokayoke>ul{
+  margin-top: -4%;
+  font-size: 18px;
+}
+#pokayoke1{
+  margin-top: -43%;
+  margin-left: 42%;
+  text-align: justify;
+}
+#pokayoke1>p{
+  margin-top: -5px;
+  font-size: 18px;
+}
+#pokayoke1>ul{
+  font-size: 18px;
+}
+#pokayoke1>p>b{
+  font-weight: 600;
+}
+#pokayoke1>h4{
+  text-align: center;
+}
+
+/*JAIRO */
+.pp-section {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.section {
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*color texto pagina 1*/
+.color{
+  background-color: rgba(130, 71, 28, 0.60);
+  color:white;
+}
+.colortitle{
+  color: black;
+}
+/*color texto pagina 2*/
+.color2{
+  background-color: rgba(65, 63, 191, 0.15);
+  color: white;
+}
+.fondoPagina1{
+  background: url("../images/Kaizen/Kaizenn1.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.fondoPagina2{
+  background-image: url("../images/Kaizen/espiral55.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
